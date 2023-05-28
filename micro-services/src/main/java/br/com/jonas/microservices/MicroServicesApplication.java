@@ -18,7 +18,7 @@ public class MicroServicesApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		User user = new User(null,"Jonas Oliveira","jonas@email.com", "123", 20.0 );
+		User user = new User(null,"Jonas Oliveira","jonas@email.com", "123", 40.0 );
 		repository.save(user);
 	}
 }

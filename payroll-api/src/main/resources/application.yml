@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: payroll-api
+server:
+  port: ${PORT:8100}
+
