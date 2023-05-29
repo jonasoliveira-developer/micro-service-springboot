@@ -6,6 +6,7 @@ import com.jonas.payrollapi.services.exceptions.ObjectNotFoundException;
 import feign.FeignException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import lombok.var;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
